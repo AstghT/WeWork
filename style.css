@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+p {
+  margin: 0;
+}
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-raw-center {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  justify-content: center;
+}
+/* main-section */
+.main-section {
+  padding: 60px;
+  color: white;
+  background-image: linear-gradient(to right, #1d0561, #5c4789);
+}
+.main-block {
+  max-width: 738px;
+  margin: 0 auto;
+}
+.drive_innovation_and_transform_your_business_in {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 15px;
+}
+.joomag-loves-we-work-logo {
+  padding: 35px 0;
+  width: 200px;
+  background-image: url(assets/joomag-love-wework.svg);
+  background-repeat: no-repeat;
+}
+.realize_your_vision_with_Joomag_s_all_in_one_pl {
+  padding: 35px 0;
+  font-size: 18px;
+  text-align: center;
+  width: 735px;
+}
+/* trusted-by-section */
+.trusted-by-section {
+  padding: 100px 0;
+}
+.partner-logos {
+  justify-content: space-evenly;
+  width: 100%;
+}
+.elipse-bg {
+  background-color: #eaeaea;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+.walmart,
+.mini {
+  max-width: 150px;
+}
+.worner-brothers {
+  max-width: 68px;
+}
+.bbb {
+  max-width: 46px;
+}
+.ernest-brothers {
+  max-width: 65px;
+}
+/* we-work-offer section  */
+.we-work-offer {
+  background-image: url(assets/image-we-work@2x.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 590px;
+  transform: skewY(-5deg);
+  margin-bottom: 100px;
+}
+.overlay {
+  background: linear-gradient(to right, #1d056187, #5c478996);
+  position: absolute;
+  height: inherit;
+  width: 100%;
+}
+.we-work-offer > h1,
+.we-work-offer > p,
+.we-work-offer > .email-form {
+  transform: skewY(5deg);
+  color: white;
+}
+.we-work-offer > h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+.we-work-offer > p {
+  padding: 35px 0;
+  font-size: 24px;
+  text-align: center;
+}
+.form-input {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  max-width: 439px;
+  width: 439px;
+  padding: 16px;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  color: rgb(183, 183, 183);
+  position: relative;
+}
+.form-button {
+  background-color: rgb(41, 108, 252);
+  width: 207px;
+  padding: 13.5px;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  font-size: 17.775px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* Features */
+.features {
+  padding-bottom: 100px;
+}
+.features > div {
+  width: 70%;
+}
+.mobile-view {
+  display: none;
+}
+.feature-item {
+  padding: 50px 0;
+}
+.feature-item > img,
+.feature-item > .feature-body {
+  width: 50%;
+}
+.feature-body {
+  padding-left: 40px;
+}
+.feature-body > h2 {
+  font-size: 36px;
+  line-height: 0.833;
+}
+.feature-body > p {
+  font-size: 18px;
+  line-height: 1.667;
+}
+/* Footer */
+.we-work-offer-end {
+  transform: skewY(-5deg);
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, #1d0561, #5c4789);
+  min-height: 500px;
+}
+.we-work-offer-end:after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: linear-gradient(to right, #1d0561, #5c4789);
+  transform-origin: bottom left;
+  transform: skewY(5deg);
+}
+.we-work-offer-end > h1,
+.we-work-offer-end > .email-form,
+.we-work-offer-end > p {
+  transform: skewY(5deg);
+}
+.email-form > span {
+  position: relative;
+  display: inline-block;
+  width: max-content;
+}
+.we-work-offer-end > h1 {
+  font-size: 24px;
+  line-height: 1.2;
+  width: 54%;
+  text-align: center;
+  padding: 35px;
+}
+.we-work-offer-end > p {
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 30px;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  .features > div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .elipse-bg {
+    max-height: 35px;
+    max-width: 35px;
+  }
+  .walmart,
+  .mini {
+    max-width: 120px;
+  }
+  .worner-brothers {
+    max-width: 38px;
+  }
+  .bbb {
+    max-width: 30px;
+  }
+  .ernest-brothers {
+    max-width: 40px;
+  }
+  .realize_your_vision_with_Joomag_s_all_in_one_pl {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .joomag-loves-we-work-logo {
+    background-image: url("assets/joomag-love-wework-mobile.svg");
+  }
+  .drive_innovation_and_transform_your_business_in {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .realize_your_vision_with_Joomag_s_all_in_one_pl {
+    font-size: 18px;
+  }
+  .trusted-by-section > h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .main-section {
+    padding: 10px;
+  }
+  .elipse-bg:not(:nth-child(1)):not(:nth-child(2)) {
+    display: none;
+  }
+  .email-form {
+    width: 94%;
+  }
+  .email-form > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-button {
+    position: relative;
+    margin-top: 30px;
+  }
+  .feature-item {
+    flex-direction: column;
+  }
+  .feature-item > img,
+  .feature-item > .feature-body {
+    width: 100%;
+  }
+  .feature-body {
+    padding-left: 0;
+  }
+  .feature-body > p,
+  .feature-body > h2 {
+    text-align: center;
+  }
+  .mobile-view {
+    display: block;
+  }
+  .screen-view {
+    display: none;
+  }
+  .we-work-offer-end > h1 {
+    width: 100%;
+    padding: 35px 0;
+  }
+}
